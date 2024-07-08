@@ -1,0 +1,25 @@
+What you will get from this  project is a better understanding of how to use the following:
+
+Threads and how to use them to make your program more efficient and faster. and you will learn how to work with the following functions: `pthread_create` and `pthread_join`, ` pthread_mutex_init`, `pthread_mutex_lock`, `pthread_mutex_unlock`.
+you will learn how to use semaphores and how to work with the following functions: `sem_init`, `sem_wait`, `sem_post`. 
+how cpu scheduling the threads and how it manaaage the threads.
+
+you will learn the following concepts:
+
+what is the difference between process and thread.
+what is the difference between mutex and semaphore.
+what is the difference between `pthread_create` and `pthread_join`.
+what is the difference between `sem_init`, `sem_wait`, `sem_post`.
+what is the difference between `pthread_mutex_init`, `pthread_mutex_lock`, `pthread_mutex_unlock`.
+
+
+## How to use the program
+
+1. clone the repo.
+2. open the terminal and go to the directory of the project.
+3. use the commmand make to compile the program.    
+4. run the program using the following command: `./philo`
+5. give the program the number of philosophers you want to run the program with.
+like this: `./philo 5 800 200 200` where 5 is the number of philosophers, 800 is the time to die, 200 is the time to eat and 200 is the time to sleep.
+
+enjoy the program 

@@ -1,81 +1,29 @@
+# C Programming Projects
 
-# C Projects
+Projects and exercises covering Unix tools, graphics, memory, threads, and algorithms.
 
-This repository contains several projects I have worked on. Below is a brief description of each project:
+## Browse the projects
 
+| Project | What I worked on |
+| --- | --- |
+| [minishell](./minishell/) | Command execution, built-in commands, pipes, and redirection |
+| [3D Game](./3D_Game/) | 3D graphics and game development |
+| [So Long](./So_long/) | A small 2D game using MiniLibX |
+| [Philosophers](./philosophers-dining-problem-c/) | Threads, synchronization, and shared resources |
+| [Push Swap](./push_swap/) | Sorting with stacks and reducing the number of operations |
+| [Pipex](./pipex/) | Unix pipes and input/output redirection |
+| [Libft](./libft/) | C functions for strings, memory, and linked lists |
+| [1337 C Piscine](./C_POOL_1337/) | C programming exercises and fundamentals |
 
- - ### 3D_Game
-   - #### *Description*     
-        A simple 3D game created to understand the basics of 3D graphics and game development.
-    - #### *Technologies Used: C, OpenGL.*
-        C
-    - #### *Features*     
-        Basic 3D rendering, simple user controls, basic game mechanics.
+## Getting started
 
- - ### C_POOL_1337
-   - #### *Description*     
-        A collection of exercises and projects from the C programming piscine at 1337 school.
-    - #### *Technologies Used: C, OpenGL.*
-        C
-    - #### *Features*     
-        Various tasks to practice C programming, including algorithms, data structures, and system programming.
+```bash
+git clone https://github.com/AnasBouzanbil/C_Programming_Projects.git
+cd C_Programming_Projects
+```
 
- - ### libft
-   - #### *Description*     
-        A custom library of useful C functions that I created.
-    - #### *Technologies Used:*
-        *C*
-    - #### *Features*     
-        Commonly used functions like string manipulation, memory management, and linked list operations.
- 
- 
-- ### minishell
-   - #### *Description*     
-        Reimplementing the behavior of the Bash shell for executing commands and handling redirection.
-    - #### *Technologies Used:*
-        C
-    - #### *Features*     
-        Command parsing, execution of built-in commands, support for pipes and redirection, and more.
+Open a project folder from the table above. Each project has its own files and build requirements. Check its README and Makefile, where provided, before building. Graphics projects may require additional libraries.
 
+## Organization
 
-- ### pipex
-   - #### *Description*     
-       A program that mimics the functionality of shell pipelines.
-    - #### *Technologies Used:*
-        C
-    - #### *Features*     
-        Redirecting input and output between programs, handling multiple commands.
-
-
-
-- ### philosophers-dining-problem-c
-   - #### *Description*     
-        A solution to the classic dining philosophers problem using C.
-    - #### *Technologies Used:*
-        C, pthreads
-    - #### *Features*     
-        Thread synchronization, avoiding deadlocks, managing resources
-
-
-
-
-
-- ###  push_swap
-   - #### *Description*     
-        A project to sort numbers using stacks.
-    - #### *Technologies Used:*
-        C
-    - #### *Features*     
-        Sorting algorithms, stack operations, optimizing moves to sort the numbers.
-
-
-
-
-- ### So_long
-   - #### *Description*     
-        A small 2D game created using C
-    - #### *Technologies Used:*
-        C, Minilibx
-    - #### *Features*     
-        Basic 2D graphics, simple gameplay, user interaction.
-
+Each top-level folder contains a separate project or exercise collection. This repository has no single root-level build command.
